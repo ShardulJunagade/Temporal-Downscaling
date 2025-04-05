@@ -1,3 +1,7 @@
+era5_data/
+data/
+*.grib
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
