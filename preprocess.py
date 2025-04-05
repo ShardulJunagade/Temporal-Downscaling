@@ -44,15 +44,15 @@ def create_data_for_years(years, csv_data):
 csv_data = './data/era5/'
 save_path = './data/'
 
-train_years = range(2011, 2021)
-train_data = create_data_for_years(train_years, csv_data)
-train_data.to_csv(save_path + 'train_data.csv', index=False)
+# train_years = range(2011, 2021)
+# train_data = create_data_for_years(train_years, csv_data)
+# train_data.to_csv(save_path + 'train_data.csv', index=False)
 
 val_years = range(2021, 2023)
 val_data = create_data_for_years(val_years, csv_data)
 val_data.to_csv(save_path + 'val_data.csv', index=False)
 
-test_years = range(2022, 2025)
+test_years = range(2023, 2025)
 test_data = create_data_for_years(test_years, csv_data)
 test_data.to_csv(save_path + 'test_data.csv', index=False)
 

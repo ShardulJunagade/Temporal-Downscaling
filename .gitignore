@@ -1,6 +1,7 @@
 era5_data/
 data/
 *.grib
+models/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
